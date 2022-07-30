@@ -34,8 +34,8 @@ header {
 }
 
 .hero-text {
-    font: 48px;
-    font-weight: 800;
+    font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
     margin-top: 0;
     max-width: 500px;
@@ -64,7 +64,7 @@ button {
 }
 
 .image-box {
-    max-width: 700px;
+    max-width: 900px;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -73,6 +73,10 @@ button {
 }
 
 
+.info-header-text {
+    font-size: 36px;
+     
+}
 
 .call-to-action {
     background-color: #3882F6;
@@ -83,10 +87,9 @@ button {
 
 
 
-/*
+
 div {
     border: 2px;
     border-color: red;
     border-style: dotted;
 }
-*/
