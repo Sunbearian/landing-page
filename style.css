@@ -45,10 +45,8 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    border: 10px;
-    border-color: red;
-
 }
+
 .header-left {
     max-width: 500px;
 
@@ -87,10 +85,8 @@ button {
 
 
 
-/*
 div {
     border: 2px;
     border-color: red;
     border-style: dotted;
 }
-*/
