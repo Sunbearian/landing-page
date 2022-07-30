@@ -75,6 +75,16 @@ button {
     font-size: 36px;
      
 }
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-images {
+    display: flex;
+}
+
 
 .call-to-action {
     background-color: #3882F6;
