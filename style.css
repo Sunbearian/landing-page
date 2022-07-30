@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 20px 80px;
+    padding: 20px 120px;
 }
 
 .secondary-text {
@@ -37,7 +37,23 @@ header {
     font: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin-top: 0;
+    max-width: 500px;
 }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border: 10px;
+    border-color: red;
+
+}
+.header-left {
+    max-width: 500px;
+
+}
+
 
 button {
     background-color: #3882F6;
@@ -47,8 +63,30 @@ button {
     padding: 5px 20px;
 }
 
+.image-box {
+    max-width: 700px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+
 .call-to-action {
     background-color: #3882F6;
     display: block;
     margin: auto;
 }
+
+
+
+
+/*
+div {
+    border: 2px;
+    border-color: red;
+    border-style: dotted;
+}
+*/
