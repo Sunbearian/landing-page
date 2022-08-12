@@ -105,12 +105,6 @@ button {
     border-radius: 10px;
 }
 
-.call-to-action {
-    background-color: #3882F6;
-    display: block;
-    margin: auto;
-    
-}
 
 .quote-section {
     display: flex;
@@ -141,17 +135,43 @@ button {
 }
 
 
+.call-section {
+    display: flex;
+    max-width: 1280px;
+    justify-content: center;
+    padding: 80px 120px;
 
+}
 
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.button-whitebg {
+    border: 2px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    height: fit-content;
+    align-self: center;
+}
 
 p {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
 
-
+/*
 div {
     border: 2px;
     border-color: red;
     border-style: dotted;
 }
+*/
