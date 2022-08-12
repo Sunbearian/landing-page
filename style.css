@@ -73,6 +73,8 @@ button {
 
 .info-header-text {
     font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
      
 }
 .info-content {
@@ -83,7 +85,7 @@ button {
 
 .info-images {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .info-section {
