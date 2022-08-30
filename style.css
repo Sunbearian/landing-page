@@ -17,6 +17,13 @@ header, footer {
     padding: 20px 120px;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+}
+
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -175,10 +182,9 @@ footer {
     text-align: center;
 }
 
-/*
+
 div {
     border: 2px;
     border-color: red;
     border-style: dotted;
 }
-*/
