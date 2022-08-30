@@ -45,6 +45,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 60px;
 }
 
 .header-left {
@@ -81,6 +82,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 120px 80px 120px;
 }
 
 .info-images {
@@ -110,7 +112,7 @@ button {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 80px 60px;
+    padding: 80px 120px;
     
 }
 
@@ -168,13 +170,14 @@ h3 {
     margin: 0;
 }
 
+footer {
+    text-align: center;
+}
 
+/*
 div {
     border: 2px;
     border-color: red;
     border-style: dotted;
 }
-
-footer {
-    text-align: center;
-}
+*/
